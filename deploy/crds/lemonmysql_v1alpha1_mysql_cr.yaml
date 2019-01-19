@@ -1,0 +1,6 @@
+apiVersion: lemonmysql.io/v1alpha1
+kind: Mysql
+metadata:
+  name: example-mysql
+spec:
+  rootpass: hellopass

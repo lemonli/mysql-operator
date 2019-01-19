@@ -15,8 +15,7 @@ spec:
       serviceAccountName: mysql-operator
       containers:
         - name: mysql-operator
-          # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: registry.cn-beijing.aliyuncs.com/bxc_docker_hub/mysql-operator:v0.1
           ports:
           - containerPort: 60000
             name: metrics
